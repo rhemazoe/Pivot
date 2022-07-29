@@ -6,8 +6,8 @@
 
 #DIRECTIONS
 
--Use variables of your choice to launch desired infrastructure
+-Use variables of choice to launch desired infrastructure
 
 -Use your AWS account access and secret keys as the environment variables under *secrets*
 
--Create an SNS subscription using specified email and then upload object to s3 bucket. 
+-Create an SNS subscription using a specified email and then upload object to s3 bucket. 
