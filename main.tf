@@ -21,7 +21,7 @@ resource "aws_sns_topic" "topic" {
         "Effect": "Allow",
         "Principal": { "Service": "s3.amazonaws.com" },
         "Action": "SNS:Publish",
-        "Resource": "arn:aws:sns:*:*:var.name",
+        "Resource": "arn:aws:sns:*:*:name",
         "Condition":{
             "ArnLike":{"aws:SourceArn":"${aws_s3_bucket.bucket.arn}"}
         }
